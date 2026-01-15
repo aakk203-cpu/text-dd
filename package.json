@@ -5,8 +5,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build": "esbuild index.tsx --bundle --minify --outfile=index.js --define:process.env.API_KEY=\"$API_KEY\" --loader:.tsx=tsx --loader:.ts=ts",
-    "dev": "esbuild index.tsx --bundle --outfile=index.js --define:process.env.API_KEY=\"$API_KEY\" --loader:.tsx=tsx --loader:.ts=ts --serve=8000"
+    "build": "esbuild index.tsx --bundle --minify --outfile=index.js --platform=browser --define:process.env.API_KEY=\"$API_KEY\" --loader:.tsx=tsx --loader:.ts=ts",
+    "dev": "esbuild index.tsx --bundle --outfile=index.js --platform=browser --define:process.env.API_KEY=\"$API_KEY\" --loader:.tsx=tsx --loader:.ts=ts --serve=8000"
   },
   "dependencies": {
     "@google/genai": "^1.35.0",
