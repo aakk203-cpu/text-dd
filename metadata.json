@@ -1,0 +1,7 @@
+{
+  "name": "ComicTranslate AI",
+  "description": "An intelligent comic translation tool that detects speech bubbles, extracts text using OCR, and allows real-time editing and translation with AI-powered overlays.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
